@@ -1,0 +1,1 @@
+{"domain":"docker_image","flow":"docker_file","context_entity":[{"docker file content":"pwd"}]}

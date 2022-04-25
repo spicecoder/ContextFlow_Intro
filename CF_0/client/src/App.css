@@ -1,0 +1,60 @@
+.screen-main-div {
+  width: 900px;
+  margin: 50px auto;
+  background-color: green;
+  
+}
+
+.screen-input {
+  width: 600px;
+  margin: 80px auto;
+  
+}
+.textfield {
+  background-color: rgb(22, 10, 65);
+   color: white;
+}
+
+.screen-button {
+  width: 100px;
+  margin: 50px auto;
+}
+
+.main-heading {
+  width: 200px;
+  margin: auto;
+}
+
+.list-container {
+  width: 97.5%;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: 2px solid #aaabad;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+}
+.list-item {
+  width: 250px;
+}
+@media (max-width: 1000px) {
+  .screen-main-div {
+    width: 90%;
+  }
+  .list-container {
+    width: 90%;
+  }
+}
+
+.upload-label{
+  display: inline-block;
+ background: white;
+  padding: 1px;
+  font-family: sans-serif;
+  border-radius: 2px;
+  cursor: pointer;
+  
+}

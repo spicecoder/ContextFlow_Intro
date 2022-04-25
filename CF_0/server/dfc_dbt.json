@@ -1,0 +1,12 @@
+{"DS":[{"d":["Docker Image",
+    {"FS":[{"f":["Docker Run",
+        {"ES":[{"command":"Docker run docker_demo"}]}]},
+        {"f":["Runtime parameters",{"ES":[{"algle":"30"}]}]},
+        {"f":["Environment variables",{"ES":[{"libv":"sharp"}]}]},
+        {"f":["Signatured inputfiles",{"ES":[{"image.jpg":"Workcontainer/Workspace/hs1.jpg"}]}]},
+        {"f":["Signatured outputfiles",{"ES":[]}]}]}]}],
+        "command":"docker run --env libv='sharp' --name run_ws  -v $(pwd)/Workcontainer/Workspace:/input/:rw  -v $(pwd)/$OUTVOL:/output/:rw  protateio angle=30 ",
+        "success":"docker run --env libv='sharp' --name run_ws  -v $(pwd)/Workcontainer/Workspace:/input/:rw  -v $(pwd)/OUTVOL:/output/:rw  protateio angle=39  ",
+        "rules":"for each flow=> for 'command', pickup imagename ;for 'env variables' for each denerate -e name=val ;for signature files ,in container ws ,rename files; for runtime parms concatenate name=value with space"
+    }
+
