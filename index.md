@@ -9,7 +9,7 @@ If we follow the coder's first steps in coding a piece of software ,it can be sa
 
 ## CONTEXtFLOW
 
-Contextflow is a methodology and a protocol to develop software in small pieces that can be joined up through explicit intentions. 
+Contextflow is a methodology and a protocol to develop software in small pieces that can be joined up and composed through explicit intentions. 
 Syntax highlighted code block
 
 # Header 1
