@@ -9,12 +9,10 @@ If we follow the coder's first steps in coding a piece of software ,it can be sa
 
 ## CONTEXtFLOW
 
-Contextflow is a methodology and a protocol to develop software in small pieces that can be joined up and composed through explicit intentions. 
-Intentions serve as design time flow of design choices. Contextflow recognises every word or phrase used inside the software code or used even during the software lifecycle ,in the communication between developers and stakeholders has a unique identification that can work as a hook into the intentions and design thoughts that are brought to life during development.
+Contextflow is a methodology and a protocol to develop software ,in small pieces ,that can be joined up and composed through explicit intentions. 
+Intentions serve as design time flow of design choices and connections. Contextflow recognises certain phrases used inside the software code or used even during the software lifecycle ,in the communication between developers and stakeholders has a unique identification that can work as a hook into the intentions and design thoughts that are brought to life during development. As a software is weaved out from smaller pieces ,some of those critical phrases repeat in several situations and code conditions or contexts. Retention of these critical phrases in the right context during the development process gives some surprising beifit in having some unique virtual adress of each resource used by the software like port numbers, files ,memory addresses and outputs. These virtual addresses of resources can also work favourably in allocating resources dynamically as the software is executed. 
 
-# Header 1
-## Header 2
-### Header 3
+### This repository is a 
 
 - Bulleted
 - List
