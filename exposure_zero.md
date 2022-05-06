@@ -1,6 +1,3 @@
-layout: page
-title: "EXPOSURE_ZERO"
-permalink: /exposure_zero/
 
 ## The DockerService App
 
