@@ -31,4 +31,4 @@ Contextflow is based on the proposition that there are three kinds of mental ele
 I shall go through an implementation in detail through a series of expositions where we take a more traditional software (a react nodejs app) 
 which does something useful for the user in a traditional way and I shall show in stages how bringing CONTEXTFLOW into the application development process provides firstly, a means of breaking an App into microservices while at the same time ,does indeed bring some unexpected advantages through context addressing and I shall also expose the way code pieces and resource details are stored in the CONTFLOW addressing system.
 
-We start with exposition ZERO describing what the App does and what it solves in <a href="/exposure_zero">Exposure_Zero.</a>
+We start with exposition ZERO describing what the App does and what it solves in <a href="/exposure_zero ">Exposure_Zero.</a>
