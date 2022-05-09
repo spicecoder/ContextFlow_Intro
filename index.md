@@ -1,4 +1,4 @@
-## What are the First Principles of Computing ?
+## What are the First Principles of Computing ? {Work In Progress}
 
 One may think of 'following a logical thinking','ability to break bigger problems into smaller ones' , 'ability to see the commonality between different approaches ' etc as the first principles. However while each of those qualities are good imperatives, they hide a much more fundamental attitude of the mind that drives computing in ways not possible in other fields. The reason being in the field of computing 'what' and 'how' are intertwined like no other scientific descipline [e.g one can always produce a massive size logarithmic table to print  'what is the log of a large number x ' without ever writing a program to show the 'how to generate the log of any number' ) and it is always this extra attitude of the mind that make a new 'what' come into the scope of computing.
 In a one word this is "Intentions" , described in wikipedia as below:
