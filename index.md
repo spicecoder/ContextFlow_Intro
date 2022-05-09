@@ -29,7 +29,12 @@ Contextflow is based on the proposition that there are three kinds of mental ele
 The three kinds of mental elements can conveniently be represented in a relational persistency layer where each POF (point of Focus) can have an intention uniquely tied up with a particular entity sequence. Because any entity sequence can effectively softlink (i.e. hold a link as its value) to any other POF, the persistency layer provides a convenient means of retracing any  design thought process that lead to any specific code. Although I shall go through in detail how these relationship builds up ,following picture gives an idea about the nature of persistency layer that backs CONTEXTFLOW : the INTENTION SPACE:
 <img src="./intentionspace.png" />
 
-## CONTEXtFLOW IMPLEMENTATION
+##SAME PHRASE MULTIPLE CONTEXT :The concept of content driven addressing achieved through data base integrity rules.
+A distinctive feature of CONTEXTFLOW is that each phrase in the three categories come with a unique id in its category; so e.g the occurrence of the same flow phrase with two different POF phrases will generate two unique addresses  as concatenation of the POF id and the FLOW id, occcurrence of the same entity name in two different concatenations of POF id and Flow id will create two unqiue addresses for the same entity name.  
+The details of these itegrity rules will be explored further through real example.
+
+
+## CONTEXTFLOW IMPLEMENTATION
 
 I shall go through an implementation in detail through a series of expositions where we take a more traditional software (a react nodejs app) 
 which does something useful for the user in a traditional way and I shall show in stages how bringing CONTEXTFLOW into the application development process provides firstly, a means of breaking an App into microservices while at the same time ,does indeed bring some unexpected advantages through context addressing and I shall also expose the way code pieces and resource details are stored in the CONTEXTFLOW  entities addressing system.
