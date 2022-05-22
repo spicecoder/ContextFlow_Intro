@@ -42,6 +42,7 @@ A context is effectively a point in a multi dimentional space . The three orthog
            MEASURE ENTITIES :this enclosse a traditional entity names and functions and their values
                       
         We shall not  delve much  into the psychological or even philosophical discourse around these elements  in this project. Nonethe less it is 
+        
         worth mentioning this model of computation does present an alternative view of computation compared the standard view of computation as           input->process->output.
 
 ## CONTEXTFLOW IMPLEMENTATION
