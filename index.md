@@ -37,11 +37,11 @@ The details of these itegrity rules will be explored further through real exampl
 The concept of Context as embedded in the CONTEXTFLOW approach embraces a broader perspective on the three kinds of faculties in the human mind.These faculties are mapped into the CONTEXTFLOW elemnts as below: 
 A context is effectively a point in a multi dimentional space . The three orthogonal faculties of the mind can be decribed as
            
-           FOCUS [ability to bring an object in focus  (point of focus) on which intentions  play on,represnted POF
-           INTETIONS [ability to capture the mind orientations that drives the actions that will act on the object in FOCUS],represented  as Flow
-           MEASURE ENTITIES :this enclosse a traditional entity names and functions and their values
+       FOCUS [ability to bring an object in focus  (point of focus) on which intentions  play on,represnted POF
+       INTETIONS [ability to capture the mind orientations that drives the actions that will act on the object in FOCUS],represented  as Flow
+       MEASURE ENTITIES :[ ability to measure values with entity names , functions and their values]
                       
-        We shall not  delve much  into the psychological or even philosophical discourse around these elements  in this project. Nonethe-less it is 
+       We shall not  delve much  into the psychological or even philosophical discourse around these elements  in this project. Nonethe-less it is 
        worth mentioning this model of computation does present an alternative view of computation compared to standard view of computation as input -> process -> output      
 
 ## CONTEXTFLOW IMPLEMENTATION
