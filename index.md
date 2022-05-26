@@ -12,6 +12,18 @@ In the world of cumulative software development,where developers builds up on th
 Contextflow is a methodology and a protocol to develop software ,in small pieces ,that can be joined up and composed through explicit intentions. 
 Intentions serve as design time flow of design choices and connections. Contextflow recognises certain phrases used inside the software code or used even during the software lifecycle ,during the communication between developers and stakeholders, has a unique identification that can work as a hook into the intentions and design thoughts that are brought to life during development. As a software is weaved out from smaller pieces ,some of those critical phrases repeat in several situations and code conditions or contexts. Retention of these critical phrases in the right context during the development process also gives some surprising benifit in having some unique virtual adress of each resource used by the software like port numbers, files ,memory addresses and outputs. These virtual addresses of resources can also work favourably in allocating resources dynamically as the software is executed. 
 
+## THE CONTEXT - A WIDER PERSPECTIVE
+The concept of Context as embedded in the CONTEXTFLOW approach embraces a broader perspective on the three kinds of faculties in the human mind.These faculties are mapped into the CONTEXTFLOW elemnts as below: 
+A context is effectively a point in a multi dimentional space . The three orthogonal faculties of the mind can be decribed as
+           
+       FOCUS [ability to bring an object in focus  (point of focus) on which intentions  play on,represnted POF
+       INTETIONS [ability to capture the mind orientations that drives the actions that will act on the object in FOCUS],represented  as Flow
+       MEASURE ENTITIES :[ ability to measure values with entity names , functions and their values]
+                      
+       We shall not  delve much  into the psychological or even philosophical discourse around these elements  in this project. Nonethe-less it is 
+       worth mentioning this model of computation does present an alternative view of computation compared to standard view of computation as input -> p   process -> output ,also known an the Von Neumann architecture.
+
+
 ## CONTEXTFLOW & INTENTIONS
 
 It is rather un-usual to bring the intentions into daily software life-dynamics. However once we start to look at intention as an outlook a developer has- when the developer is starting to write a piece of software, that has a purpose , we can assign, to an intention, the role of joining up small pieces that can achive a goal together , where the goal relates to a subject of interest, which is referred to as a 'point of focus (POF)'. This concept of a POF in Contextflow is almost opposite of the concept of  Object or concept of Class in software. In standard  object orientation, Class and Objects capture,  and encapsulate the behavoiour into one blob or the object- in contrast the point of focus is where conceptually all flow of intentions merge into, while each intention can carry a number of small code pieces which are reusable and each has a name and  they are referred to as entities. In ContextFLOW I implement this paradigm not through any special programming syntax but through some integrity rules around the flow,pof and entity names in a supporting data base which I call INTENTIONSPACE.  This allows the flow,pof and entities  to be any piece of string that has a unique representation in the data base. The  picture below illustrates how some flows can possibly drive a banking app development.:
@@ -29,20 +41,10 @@ Contextflow is based on the proposition that there are three kinds of mental ele
 The three kinds of mental elements can conveniently be represented in a relational persistency layer where each POF (point of Focus) can have an intention uniquely tied up with a particular entity sequence. Because any entity sequence can effectively softlink (i.e. hold a link as its value) to any other POF, the persistency layer provides a convenient means of retracing any  design thought process that lead to any specific code. Although I shall go through in detail how these relationship builds up ,following picture gives an idea about the nature of persistency layer that backs CONTEXTFLOW : the INTENTION SPACE:
 <img src="./intentionspace.png" />
 
-## SAME PHRASE MULTIPLE CONTEXT :The concept of content driven addressing achieved through data base integrity rules.
+## Same Phrase Multiple Ccontext: The concept of content driven addressing achieved through data base integrity rules.
 A distinctive feature of CONTEXTFLOW is that each phrase in the three categories come with a unique id in its category; so e.g the occurrence of the same flow phrase with two different POF phrases will generate two unique addresses  as concatenation of the POF id and the FLOW id, occcurrence of the same entity name in two different concatenations of POF id and Flow id will create two unqiue addresses for the same entity name.  
 The details of these itegrity rules will be explored further through real example.
 
-## THE CONTEXT - A WIDER PERSPECTIVE
-The concept of Context as embedded in the CONTEXTFLOW approach embraces a broader perspective on the three kinds of faculties in the human mind.These faculties are mapped into the CONTEXTFLOW elemnts as below: 
-A context is effectively a point in a multi dimentional space . The three orthogonal faculties of the mind can be decribed as
-           
-       FOCUS [ability to bring an object in focus  (point of focus) on which intentions  play on,represnted POF
-       INTETIONS [ability to capture the mind orientations that drives the actions that will act on the object in FOCUS],represented  as Flow
-       MEASURE ENTITIES :[ ability to measure values with entity names , functions and their values]
-                      
-       We shall not  delve much  into the psychological or even philosophical discourse around these elements  in this project. Nonethe-less it is 
-       worth mentioning this model of computation does present an alternative view of computation compared to standard view of computation as input -> process -> output ,also known an the Von Neumann architecture.
 
 ## THE JSON DATASTRUCTURE OF CONTEXTFLOW 
 
