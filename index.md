@@ -48,9 +48,9 @@ The details of these itegrity rules will be explored further through real exampl
 
 ## THE JSON Data Structure OF CONTEXTFLOW 
 
-           The relation between point of focus (POF) ,Flow and the entities can be captured in the following JSON structure :
+The relation between point of focus (POF) ,Flow and the entities can be captured in the following JSON structure :
            
-           {
+   {
     "DS": [
       {
         "d": [
