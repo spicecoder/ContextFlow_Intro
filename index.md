@@ -34,7 +34,7 @@ The exact workings of this addressing mechanism and their uniquness will be expl
 ## ONE FLOW,ONE INTENTION--BACKEND-TO-FRONTEND OR Any Layer
 The benifit of maintaining the integrity context of the names of pof ,flow and entities in CONTEXTFLOW is ,no matter what is the technology stack where a particular code piece runs , is that we have a single flow that covers all different technologies that are required to achieve a goal .Thus a simple flow like "open an Account" can span across front end and back end technologies with the right code segment entities that works in a particular setup. 
 
-## CONTEXtFLOW PHRASE CATEGORIES
+## CONTEXTFLOW PHRASE CATEGORIES
 Contextflow is based on the proposition that there are three kinds of mental elements invoved in an intentionality of a software developer . These are i.point of focus, which is a phrase that determines the object around which intention is built, Flow, which is a phrase that articulates a specific intention  and Entity sequence ,one or more enties attached to a Flow  where each entity has a name and can hold a value of arbitrary kind.The content of these entities are the code and resources or a pointer to code and resources that make up the software. This way both the pof and flow acts as addresses to the actual code andresources. 
 
 ## THE INTENTION SPACE
