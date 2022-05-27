@@ -69,7 +69,6 @@ The relation between point of focus (POF) ,Flow and the entities can be captured
                   }
                 ]
               }
-              
             ]
           }
         ]
