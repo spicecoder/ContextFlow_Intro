@@ -41,8 +41,7 @@ Contextflow is based on the proposition that there are three kinds of mental ele
        
        ii. Flow, which is a phrase that articulates a specific intention ,can only occur once within a specific POF and
        
-       iii. Entity sequence ,one or more enties attached to a Flow  where each entity has a name and can hold a value of arbitrary kind. Entities work as a            container of the subject matter in a narrow scope. An entity name within a flow can not repeat within that flow. Each entity in a Flow has thus         always  have a unique name and also a unique position in the sequence.  
-           
+       iii. Entity sequence ,one or more enties attached to a Flow  where each entity has a name and can hold a value of arbitrary kind. Entities work as a            container of the subject matter in a narrow scope. An entity name within a flow can not repeat within that flow. Each entity in a Flow has thus always  have a unique name and also a unique position in the sequence.  
            The content of these entities are the code and resources or a pointer to code and resources that make up the software. This way both the POF and            Flows act as addresses to the actual code and resources held by the entities.
 
 ## THE INTENTION SPACE
