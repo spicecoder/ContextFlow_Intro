@@ -51,19 +51,19 @@ The details of these itegrity rules will be explored further through real exampl
 The relation between point of focus (POF) ,Flow and the entities can be captured in the following JSON structure :
            
    {
-    "DS": [
+    "PS": [
       {
-        "d": [
-          "domain",
+        "p": [
+          "POF1",
           {
             "FS": [
               {
                 "f": [
-                  "flow",
+                  "flow1",
                   {
                     "ES": [
                       {
-                        "entity": "value"
+                        "entity1": "value"
                       }
                     ]
                   }
@@ -76,7 +76,7 @@ The relation between point of focus (POF) ,Flow and the entities can be captured
     ]
 }
 
-
+In the above 'POF1','flow1' and 'entity1' are just illustrative names of certain POF ,Flow and Entity ; PS ,FS and ES are json structure of a set of POF ,Flows and Entities respectively. the elemnts 'p', 'f'  are the json structure of a single POF and Flow respectively.
 
 ## CONTEXTFLOW IMPLEMENTATION
 
