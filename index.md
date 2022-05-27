@@ -81,6 +81,6 @@ In the above 'POF1','flow1' and 'entity1' are just illustrative names of certain
 ## CONTEXTFLOW IMPLEMENTATION
 
 I shall go through an implementation in detail through a series of expositions where we take a more traditional software (a react nodejs app) 
-which does something useful for the user in a traditional way and I shall show in stages how bringing CONTEXTFLOW into the application development process provides firstly, a means of breaking an App into microservices while at the same time ,does indeed bring some unexpected advantages through context addressing and I shall also expose the way code pieces and resource details are stored in the CONTEXTFLOW  entities addressing system.
+which does something useful for the user in a traditional way and I shall show in stages how bringing CONTEXTFLOW into the application development process provides firstly,a common data reference through out the App without bringing any special constructs like Context or Sate, a means of breaking an App into microservices while at the same time ,does indeed bring some unexpected advantages through context addressing and I shall also expose the way code pieces and resource details can be stored in the CONTEXTFLOW  entities addressing system.
 
 We start with exposition ZERO describing what the App does and what it solves in <a href="https://spicecoder.github.io/ContextFlow_Intro/exposure_zero">Exposure_Zero.</a>
