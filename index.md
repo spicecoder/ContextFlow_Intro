@@ -71,7 +71,7 @@ The relation between point of focus (POF) ,Flow and the entities can be captured
                   {
                     "ES": [
                       {
-                        "entity1": "value"
+                        "entity1": "*entity_content"
                       }
                     ]
                   }
@@ -82,6 +82,21 @@ The relation between point of focus (POF) ,Flow and the entities can be captured
         ]
       }
     ]
+}
+The entity_content can be formed of following detail: 
+{
+	"entity1": [{
+		"bind": {
+			"p": "xxxx",
+			"f": "xxxx",
+			"e": "xxxx"
+		}
+	}, {
+		"resource": ""
+	}, {
+		"content": ""
+	}]
+
 }
 
 In the above 'POF1','flow1' and 'entity1' are just illustrative names of certain POF ,Flow and Entity ; PS ,FS and ES are json structure of a set of POF ,Flows and Entities respectively. the elemnts 'p', 'f'  are the json structure of a single POF and Flow respectively.
